@@ -1,8 +1,9 @@
-import './App.css';
+import './styles/App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div>Sindicato Nacional de Trabajadores de la Secretaría de Desarrollo Agrario, Territorial y Urbano</div>
+    <Home />
   );
 }
 
