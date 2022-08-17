@@ -1,8 +1,8 @@
-import "../styles/header.css"
+import "../styles/Tittle.css"
 
-const Header = () => {
+const Tittle = () => {
   return (
-    <header className="header">
+    <section className="container-tittle">
       <div className="logo"> LOGO </div>
       <div className="tittle">
         <h1 className="t1">Sindicato Nacional</h1>
@@ -10,9 +10,9 @@ const Header = () => {
         <h2 className="t2">de Desarrollo Agrario, Territorial y Urbano</h2>
       </div>
 
-    </header>
+    </section>
 
   )
 }
 
-export default Header;
+export default Tittle;

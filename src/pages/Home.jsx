@@ -1,12 +1,14 @@
-import Header from "../components/Header";
-import Menu from "../components/Menu";
+import Tittle from '../components/Tittle'
+import NavBar from '../components/NavBar'
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <Menu />
-    </div>
+    <>
+      <header>
+        <Tittle />
+        <NavBar />
+      </header>
+    </>
   )
 }
 
