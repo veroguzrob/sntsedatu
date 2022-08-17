@@ -1,8 +1,4 @@
-.header {
-  border: 2px solid yellow;
-  min-width: 769px;
-  max-width: 2000px;
-  margin: auto;
+.container-tittle {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -40,7 +36,6 @@
 
 @media only screen and (min-width:481px) and (max-width:768px) {
   .header {
-    border: 2px solid green;
     min-width: 481px;
     max-width: 768px;
   }
@@ -62,7 +57,6 @@
 
 @media only screen and (max-width:480px) {
   .header {
-    border: 2px solid red;
     max-width: 480px;
   }
 
