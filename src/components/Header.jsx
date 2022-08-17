@@ -2,7 +2,7 @@ import "../styles/header.css"
 
 const Header = () => {
   return (
-    <header className="container">
+    <header className="header">
       <div className="logo"> LOGO </div>
       <div className="tittle">
         <h1 className="t1">Sindicato Nacional</h1>
