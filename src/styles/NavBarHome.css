@@ -1,14 +1,16 @@
 .navbar-container {
   background-color: #403B37;
-  list-style-type: none;
-  overflow: hidden;
+  height: 60px;
   padding: 0;
   margin: 15px 0px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .elements {
+  background-color: #403B37;
+  border: none;
   color: #ffffff;
   font-family: 'Roboto Serif';
   font-size: 20px;

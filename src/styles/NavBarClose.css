@@ -1,0 +1,39 @@
+.navbarclose-container {
+  background-color: #403B37;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 15px 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+.close {
+  background-color: #403B37;
+  border: none;
+  padding: 0;
+  width: 100px;
+  height: 55px;
+
+}
+
+.icon-close {
+  color: #ffffff;
+  width: 35px;
+  height: 50px;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .elements {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .elements {
+    font-size: 10px;
+  }
+}
