@@ -1,6 +1,5 @@
 import Tittle from '../components/Tittle'
 import NavBarHome from '../components/NavBarHome'
-import VerMas from '../components/VerMas'
 
 const Home = () => {
   return (
@@ -8,7 +7,6 @@ const Home = () => {
       <header>
         <Tittle />
         <NavBarHome />
-        <VerMas />
       </header>
     </>
   )

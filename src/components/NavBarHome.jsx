@@ -1,7 +1,7 @@
 import "../styles/NavBarHome.css";
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-
+import { TiThMenu } from "react-icons/ti";
 
 
 const NavBarHome = () => {
@@ -28,16 +28,21 @@ const NavBarHome = () => {
   };
 
   return (
-    <nav>
-      <div className="navbar-container">
-        <button className="elements" onClick={moveToReleases}>COMUNICADOS</button>
-        <button className="elements" onClick={moveToDirectory}>DIRECTORIO</button>
-        <button className="elements" onClick={moveToDocuments}>DOCUMENTOS</button>
-        <button className="elements" onClick={moveTotransparency}>TRANSPARENCIA</button>
-        <button className="elements" onClick={moveToContact}>CONTACTO</button>
-      </div>
-    </nav>
+    <nav className="nav-menu">
 
+      <input type="checkbox" name="" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="menu-icon"><TiThMenu className="icon-hbg" /></i>
+      </label>
+
+      <ul>
+        <li onClick={moveToReleases}>COMUNICADOS</li>
+        <li onClick={moveToDirectory}>DIRECTORIO</li>
+        <li onClick={moveToDocuments}>DOCUMENTOS</li>
+        <li onClick={moveTotransparency}>TRANSPARENCIA</li>
+        <li onClick={moveToContact}>CONTACTO</li>
+      </ul>
+    </nav>
   )
 }
 export default NavBarHome;
