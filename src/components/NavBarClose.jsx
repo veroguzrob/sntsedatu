@@ -12,12 +12,12 @@ const NavBarClose = () => {
 
 
   return (
-    <nav>
-      <div className="navbarclose-container">
-        <button className="close" onClick={moveToHome}> <AiOutlineClose className="icon-close" /> </button>
-      </div>
+    <nav className="nav-menucls">
+      <input type="checkbox" name="" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="menu-iconcls" onClick={moveToHome}><AiOutlineClose className="icon-close" /></i>
+      </label>
     </nav>
-
   )
 }
 export default NavBarClose;

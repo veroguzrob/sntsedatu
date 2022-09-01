@@ -1,9 +1,9 @@
 import "../styles/Tittle.css"
-
+import logo from '../img/sedatu.jpg'
 const Tittle = () => {
   return (
     <section className="container-tittle">
-      <div className="logo"> LOGO </div>
+      <img src={logo} alt="logo" className="logo-snt" />
       <div className="tittle">
         <h1 className="t1">Sindicato Nacional</h1>
         <h2 className="t2">de Trabajadores de la Secretaría</h2>
