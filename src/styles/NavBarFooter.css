@@ -1,0 +1,47 @@
+.container-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #403B37;
+  font-family: 'Roboto Serif';
+  color: #ffffff;
+}
+
+.title-liks {
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.links1 {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.links2 {
+  width: 200px;
+  height: auto;
+  margin-left: 20px;
+}
+
+a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  display: list-item;
+  list-style: none;
+}
+
+.registration {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}

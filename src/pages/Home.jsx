@@ -1,5 +1,6 @@
 import Tittle from '../components/Tittle'
 import NavBarHome from '../components/NavBarHome'
+import NavBarFooter from '../components/NavBarFooter'
 import { SectionReleases, SectionDirectory, SectionDocuments, SectionTransparency, SectionContact } from '../components/SectionHeadings'
 
 const Home = () => {
@@ -8,12 +9,18 @@ const Home = () => {
       <header>
         <Tittle />
         <NavBarHome />
+      </header>
+      <main>
         <SectionReleases />
         <SectionDirectory />
         <SectionDocuments />
         <SectionTransparency />
         <SectionContact />
-      </header>
+      </main>
+      <footer>
+        <NavBarFooter />
+      </footer>
+
     </>
   )
 }
