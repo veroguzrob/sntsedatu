@@ -1,0 +1,31 @@
+.container-section {
+  font-family: 'Roboto Serif';
+  color: #403B37;
+
+}
+
+.tittle-section {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+hr {
+  height: 1px;
+  width: 300px;
+  background-color: #A30000;
+}
+
+.container-info {
+  border: 2px solid blueviolet;
+  margin: 20px;
+  height: 300px;
+}
+
+.go-to {
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: end;
+  margin-right: 20px;
+  cursor: pointer;
+}
