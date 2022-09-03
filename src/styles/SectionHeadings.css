@@ -17,9 +17,10 @@ hr {
 }
 
 .container-info {
-  border: 2px solid blueviolet;
+  background-color: #fff;
   margin: 20px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .go-to {
