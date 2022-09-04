@@ -1,3 +1,4 @@
+/*Desktop (1680*1050) Laptop (1280*800)*/
 .container-section {
   font-family: 'Roboto Serif';
   color: #403B37;
@@ -24,9 +25,68 @@ hr {
 }
 
 .go-to {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: underline;
   text-align: end;
   margin-right: 20px;
   cursor: pointer;
+}
+
+/*Tablets (768*1024 o 1024*768)*/
+@media only screen and (min-width:768px) and (max-width:924px) {
+  .tittle-section {
+    font-size: 25px;
+  }
+
+  hr {
+    width: 250px;
+  }
+
+  .container-info {
+    height: 250px;
+  }
+
+  .go-to {
+    font-size: 20px;
+
+  }
+}
+
+/*Smartphones (767*480)*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+  .tittle-section {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 200px;
+  }
+
+  .container-info {
+    height: 200px;
+  }
+
+  .go-to {
+    font-size: 15px;
+
+  }
+}
+
+@media only screen and (max-width:479px) {
+  .tittle-section {
+    font-size: 15px;
+  }
+
+  hr {
+    width: 150px;
+  }
+
+  .container-info {
+    height: 150px;
+  }
+
+  .go-to {
+    font-size: 10px;
+
+  }
 }

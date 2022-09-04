@@ -1,3 +1,4 @@
+/*Desktop (1680*1050) Laptop (1280*800)*/
 .container-footer {
   margin-top: 20px;
   padding: 10px;
@@ -44,4 +45,54 @@ a {
   font-weight: bold;
   text-align: center;
   color: #000;
+}
+
+/*Tablets (768*1024 o 1024*768)*/
+@media only screen and (min-width:768px) and (max-width:924px) {
+  .title-liks {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 17px;
+  }
+
+  .registration {
+    font-size: 13px;
+  }
+}
+
+/*Smartphones (480*320)*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+  .title-liks {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  .registration {
+    padding: 5px;
+    font-size: 09px;
+  }
+}
+
+/*Smartphones (320*480)*/
+@media only screen and (max-width:479px) {
+  .title-liks {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 10px;
+  }
+
+  .registration {
+    padding: 3px;
+    font-size: 07px;
+  }
 }
