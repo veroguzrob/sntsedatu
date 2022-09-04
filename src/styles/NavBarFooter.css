@@ -31,7 +31,7 @@
   margin-left: 20px;
 }
 
-a {
+.links-footer {
   font-size: 20px;
   color: #ffffff;
   text-decoration: none;
@@ -54,7 +54,7 @@ a {
     text-align: center;
   }
 
-  a {
+  .links-footer {
     font-size: 17px;
   }
 
@@ -70,7 +70,7 @@ a {
     text-align: center;
   }
 
-  a {
+  .links-footer {
     font-size: 12px;
   }
 
@@ -87,7 +87,7 @@ a {
     text-align: center;
   }
 
-  a {
+  .links-footer {
     font-size: 10px;
   }
 
